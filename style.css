@@ -49,6 +49,7 @@ nav > div, nav ul {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero {
   position: relative; /* Change to relative to provide a stacking context */
   width: 100%;
@@ -59,5 +60,24 @@ nav > div, nav ul {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 1; /* Ensure video is behind the text */
 }
 
+.hero > div {
+  position: absolute;
+  top: 50%; /* Center text vertically */
+  left: 50%; /* Center text horizontally */
+  transform: translate(-50%, -100%); /* Adjust for proper centering */
+  z-index: 2; /* Ensure text is above the video */
+  color: white; /* Set text color to ensure visibility over video */
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: background for readability */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+section {
+  padding: 1rem;
+  min-height: 90vh;
+  box-sizing: border-box;
+}
