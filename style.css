@@ -81,3 +81,57 @@ section {
   min-height: 90vh;
   box-sizing: border-box;
 }
+
+.content img {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 2.5vw;
+  width: 40vw;
+  height: auto;
+  max-height: 70vh;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  padding: 2.5vw;
+  box-sizing: border-box;
+}
+
+.content p {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content button {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--logo-color);
+  background-color: #1A1B1F;
+  color: white;
+}
+
+h1 {
+  color: #ffa500;
+  text-align: center;
+  font-size: 3rem;
+  padding: 0.5rem;
+}
+
+
+p > span {
+  font-size: 1px;
+}
+
+section > h1 {
+  transform: scale(0);
+}
