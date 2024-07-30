@@ -48,4 +48,16 @@ nav > div, nav ul {
   width: 8rem;
 }
 
+/* Hero Section */
+.hero {
+  position: relative; /* Change to relative to provide a stacking context */
+  width: 100%;
+}
+
+.hero video {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
