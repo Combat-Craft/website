@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+:root {
+  --logo-color: #F58C1E;
+  --text-color: #48494b;
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  
+}
+
+
