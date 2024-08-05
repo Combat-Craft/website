@@ -1,42 +1,14 @@
 /*  NavBar  */
 
-nav {
-  color: var(--logo-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.2rem;
-  font-weight: 800;
-  width: 100%;
-  padding: 0.2rem 1rem;
-  box-sizing: border-box;
-  overflow: hidden;
-}
+/* .menu {
+  width: 5vh;
+  height: 0.5vh;
+  background-color: white;
+  margin: 0.5vh 0;
+  border-radius: 0.5vh;
+} */
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  justify-content: end;
-}
-
-nav > div,
-nav ul {
-  width: 20rem;
-}
-
-#text-logo {
-  width: 15rem;
-  box-sizing: border-box;
-}
-
-#bot-logo {
-  width: 8rem;
-}
-
-nav .link {
-  background-color: inherit;
-  border: inherit;
-  color: inherit;
-  font-size: inherit;
-}
+/* .hover {
+  margin: 1vh 0;
+  transition: margin 0.25s linear;
+} */

@@ -45,7 +45,7 @@ body {
   border-radius: 10px; /* Optional: rounded corners */
 }
 
-section {
+/* section {
   padding: 1rem;
   min-height: 90vh;
   box-sizing: border-box;
@@ -111,7 +111,7 @@ p > span {
 
 section > h1 {
   transform: scale(0);
-}
+} */
 
 /* Build with Us */
 .content input {
