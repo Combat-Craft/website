@@ -46,7 +46,7 @@ export default function Menu({ isActive, setIsActive }) {
   return (
     <AnimatePresence>
       <motion.div
-        whileHover={{ scale: 1.05 }}
+        // whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -70,8 +70,8 @@ export default function Menu({ isActive, setIsActive }) {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            width: "80%",
-            height: "80%",
+            width: "60%",
+            height: "90%",
           }}>
           <div
             style={{

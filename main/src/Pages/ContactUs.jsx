@@ -18,7 +18,13 @@ export default function ContactUs() {
             Who Are We ?
           </h1>
         </div>
-        <div style={{ display: "flex", flexDirection: "row", height: "80%" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            height: "80%",
+            fontFamily: "Jetbrains mono",
+          }}>
           <div
             style={{
               display: "flex",

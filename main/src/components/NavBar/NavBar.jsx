@@ -16,6 +16,7 @@ export default function NavBar({ isActive, setIsActive }) {
           padding: "2vh",
           alignItems: "center",
           justifyContent: "space-between",
+          backgroundColor: "transparent",
         }}>
         <div>
           <Link to={"/"}>
