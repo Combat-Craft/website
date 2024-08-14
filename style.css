@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap");
 :root {
-  --logo-color: #F58C1E;
+  --logo-color: #f58c1e;
   --text-color: #48494b;
-  
 }
 * {
   margin: 0;
@@ -11,7 +10,6 @@
 
 body {
   background-color: black;
-  
 }
 
 /* nav */
@@ -35,7 +33,8 @@ nav ul {
   justify-content: end;
 }
 
-nav > div, nav ul {
+nav > div,
+nav ul {
   width: 20rem;
 }
 
@@ -55,7 +54,6 @@ nav button {
   font-size: inherit;
 }
 
-/* Hero Section */
 /* Hero Section */
 .hero {
   position: relative; /* Change to relative to provide a stacking context */
@@ -79,7 +77,12 @@ nav button {
   color: white; /* Set text color to ensure visibility over video */
   text-align: center;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: background for readability */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional: background for readability */
   border-radius: 10px; /* Optional: rounded corners */
 }
 
@@ -132,7 +135,7 @@ section:nth-of-type(odd) .content {
   padding: 0.8rem 1rem;
   font-size: 1rem;
   border: 1px solid var(--logo-color);
-  background-color: #1A1B1F;
+  background-color: #1a1b1f;
   color: white;
 }
 
@@ -142,7 +145,6 @@ h1 {
   font-size: 3rem;
   padding: 0.5rem;
 }
-
 
 p > span {
   font-size: 1px;
@@ -171,4 +173,49 @@ section:last-of-type .content button {
 
 section:last-of-type h1 {
   color: white;
+}
+
+/* footer */
+footer {
+  font-family:sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  padding: 2rem 2rem 1rem 2rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: relative;
+}
+
+footer > address div:last-of-type img {
+  width: 1.5rem;
+  height: auto;
+}
+
+footer > div:first-of-type {
+  display: flex;
+  align-items: start;
+}
+
+footer img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+footer address {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+
+footer > address + p {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  background-color: white;
+  border-top: 1px solid black;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
 }
