@@ -52,6 +52,7 @@ nav button {
   border: inherit;
   color: inherit;
   font-size: inherit;
+  cursor: pointer;
 }
 
 /* Hero Section */
@@ -137,6 +138,12 @@ section:nth-of-type(odd) .content {
   border: 1px solid var(--logo-color);
   background-color: #1a1b1f;
   color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.content button: hover {
+  background-color: #f58c1e
 }
 
 h1 {
