@@ -1,0 +1,64 @@
+/* Default Init CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+/* NavBar */
+
+.navbar-main-div {
+  background-color: #242424;
+  width: 100%;
+  height: 7.5vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-second-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 80%;
+}
+
+.navbar-combat-craft-logo > img {
+  width: 20vw;
+  /* height: 100%; */
+}
+
+.navbar-links-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-links-div {
+  padding: 1vw;
+}
+
+.navbar-links {
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer */
+
+.footer-main-div {
+  background-color: white;
+  width: 100vw;
+  height: 20vh;
+}
+
+/* Resposive */
